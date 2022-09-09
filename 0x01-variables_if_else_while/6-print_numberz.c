@@ -1,17 +1,20 @@
 #include <stdio.h>
+
 /**
- *  * main - Entry point
- *   *
- *    * Return: Always 0 (Success)
- *     */
+ *   * main - Prints the numbers since 0 to 9
+ *     *
+ *       * Return: Always (Success)
+ *         */
 int main(void)
 {
-	int k;
+		int n;
 
-	for (k = 48; k <= 57; k++)
-	{
-		putchar(k);
-	}
-	putchar('\n');
-	return (0);
+			for (n = '0'; n <= '9'; n++)
+					{
+								putchar(n);
+									}
+
+				putchar('\n');
+
+					return (0);
 }

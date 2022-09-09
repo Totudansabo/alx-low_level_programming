@@ -1,39 +1,37 @@
 #include <stdio.h>
+
 /**
- *  * main - Entry point
- *   *
- *    * Return: Always 0 (Success)
- *     */
+ *   * main - Prints 3 combination of numbers
+ *     *
+ *       * Return: Always (Success)
+ *         */
 int main(void)
 {
-	int x, y, z;
+		int c, i, k;
 
-	for (x = 48; x <= 57; x++)
-	{
-		for (y = 48; y <= 57; y++)
-		{
-			for (z = 48; z <= 57; z++)
-			{
-				if (x == y || x == z || y == z || y <= x || z <= y)
-				{
-				}
-				else
-				{
-					putchar(x);
-					putchar(y);
-					putchar(z);
-					if (x == 55 && y == 56 && z == 57)
+			for (c = '0'; c <= '9'; c++)
 					{
-					}
-					else
-					{
-						putchar(44);
-						putchar(' ');
-					}
-				}
-			}
-		}
-	}
-	putchar('\n');
-	return (0);
+								for (i = '0'; i <= '9'; i++)
+											{
+															for (k = '0'; k <= '9'; k++)
+																			{
+																								if (c < i && i < k)
+																													{
+																																			putchar(c);
+																																								putchar(i);
+																																													putchar(k);
+
+																																																		if (c != '7')
+																																																								{
+																																																															putchar(',');
+																																																																					putchar(' ');
+																																																																										}
+																																																						}
+																											}
+																	}
+									}
+
+				putchar('\n');
+
+					return (0);
 }

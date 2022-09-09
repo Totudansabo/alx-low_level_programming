@@ -1,21 +1,25 @@
 #include <stdio.h>
+
 /**
- *  * main - Entry point
- *   *
- *    * Return: Always 0 (Success)
- *     */
+ *   * main - Prints a hexadecimal string
+ *     *
+ *       * Return: Always (Success)
+ *         */
 int main(void)
 {
-	int z;
+		char c;
 
-	for (z = 48; z <= 57; z++)
-	{
-		putchar(z);
-	}
-	for (z = 97; z <= 102;z++)
-	{
-		putchar(z)
-	}
-	putchar('\n');
-	return (0);
+			for (c = '0'; c <= '9'; c++)
+					{
+								putchar(c);
+									}
+
+				for (c = 'a'; c <= 'f'; c++)
+						{
+									putchar(c);
+										}
+
+					putchar('\n');
+
+						return (0);
 }
