@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /*
- * main - Entry point
+ * main- Entry point
  *
  * Description: using the main funftion
  * this program prints (zero, negetive or positive)
