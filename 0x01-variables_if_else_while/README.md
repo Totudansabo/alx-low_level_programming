@@ -1,1 +1,1 @@
-C - Variables, if, else, while
+the task is all about looping in C-Programming
