@@ -3,6 +3,9 @@
 #include <stdio.h>
 /*
  * main - Entry point
+ *
+ * Description: using the main funftion
+ * this program prints (zero, negetive or positive)
  * Return: 0 if successful
  */
 int main(void)
