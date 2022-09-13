@@ -1,0 +1,1 @@
+functioms for nested loop
